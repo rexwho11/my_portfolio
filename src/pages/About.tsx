@@ -1,5 +1,5 @@
 import { Shield, Target, Cpu, Award, Lock, AlertTriangle } from "lucide-react";
-import profilePhoto from "@/assets/profile-photo.jpg";
+import profilePhoto from "@/assets/prrofile-photo4.jpg";
 
 const About = () => {
   const highlights = [

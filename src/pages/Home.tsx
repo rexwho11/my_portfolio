@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { ArrowRight, Shield, Terminal } from "lucide-react";
 import heroImage from "@/assets/hero-hacker.jpg";
-import profilePhoto from "@/assets/profile-photo.jpg";
+import profilePhoto from "@/assets/profile-photo3.jpg";
 
 
 const Home = () => {
@@ -100,7 +100,7 @@ const Home = () => {
               <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-primary/30 float-animation">
                 <img
                   src={profilePhoto}
-                  alt="Alex Chen - Ethical Hacker"
+                  alt="rexwho - Ethical Hacker"
                   className="w-full h-full object-cover"
                 />
                 {/* Overlay */}

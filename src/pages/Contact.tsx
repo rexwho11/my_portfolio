@@ -63,9 +63,9 @@ const Contact = () => {
   };
 
   const contactInfo = [
-    { icon: Phone, label: "Phone", value: "+1 (234) 567-890", href: "tel:+1234567890" },
-    { icon: Mail, label: "Email", value: "contact@redteam.com", href: "mailto:contact@redteam.com" },
-    { icon: MapPin, label: "Location", value: "San Francisco, CA", href: null },
+    { icon: Phone, label: "Phone", value: "+251976844155", href: "tel:+251976844155" },
+    { icon: Mail, label: "Email", value: "masreshahabtamu169@gmail.com", href: "mailto:masreshahabtamu169@gmail.com" },
+    { icon: MapPin, label: "Location", value: "Addis Ababa", href: null },
     { icon: Clock, label: "Response Time", value: "Within 24 hours", href: null },
   ];
 
@@ -186,7 +186,7 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   className="cyber-input"
-                  placeholder="John Doe"
+                  placeholder="Enter your name."
                 />
               </div>
 
@@ -202,7 +202,7 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   className="cyber-input"
-                  placeholder="john@example.com"
+                  placeholder="Enter your email."
                 />
               </div>
 

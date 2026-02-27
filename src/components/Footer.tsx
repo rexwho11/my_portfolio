@@ -40,16 +40,16 @@ const DiscordIcon = () => (
 );
 
 const socialLinks = [
-  { Icon: Youtube, href: "https://youtube.com", label: "YouTube" },
-  { Icon: Github, href: "https://github.com", label: "GitHub" },
-  { Icon: Instagram, href: "https://instagram.com", label: "Instagram" },
-  { Icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { Icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-  { Icon: TelegramIcon, href: "https://telegram.org", label: "Telegram" },
-  { Icon: TikTokIcon, href: "https://tiktok.com", label: "TikTok" },
-  { Icon: DiscordIcon, href: "https://discord.com", label: "Discord" },
-  { Icon: Facebook, href: "https://facebook.com", label: "Facebook" },
-  { Icon: MessageCircle, href: "https://wa.me/1234567890", label: "WhatsApp" },
+  { Icon: Youtube, href: "https://www.youtube.com/@AbugidaTechTube", label: "YouTube" },
+  { Icon: Github, href: "https://github.com/rexwho11", label: "GitHub" },
+  { Icon: Instagram, href: "https://www.instagram.com/rexwho11?igsh=MWRvMmx2cDJ5cDV5Mw==", label: "Instagram" },
+  { Icon: Linkedin, href: "https://www.linkedin.com/in/masresha-habtamu-a8a58537a", label: "LinkedIn" },
+  { Icon: Twitter, href: "https://x.com/rexwho11", label: "Twitter" },
+  { Icon: TelegramIcon, href: "https://t.me/Abugidam", label: "Telegram" },
+  { Icon: TikTokIcon, href: "https://www.tiktok.com/@abugida.tech.tube?_r=1&_t=ZN-92o0LMRUaHf",  label: "TikTok" },
+  { Icon: DiscordIcon, href: "https://discordapp.com/users/1446888416963985581",  label: "Discord" },
+  { Icon: Facebook, href: "https://www.facebook.com/profile.php?id=100090770936524", label: "Facebook" },
+  { Icon: MessageCircle, href: "https://wa.me/251976844155",  label: "WhatsApp" },
 ];
 
 const Footer = () => {
@@ -64,26 +64,26 @@ const Footer = () => {
                 <Shield className="w-5 h-5 text-primary" />
               </div>
               <span className="font-mono font-bold text-lg">
-                <span className="text-primary">&lt;</span>
-                RedTeam
-                <span className="text-primary">/&gt;</span>
+                <span className="text-primary"></span>
+                rexwho
+                <span className="text-primary"></span>
               </span>
             </div>
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <div className="space-y-3">
               <a
-                href="tel:+1234567890"
+                href="tel:+251976844155"
                 className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
               >
                 <Phone className="w-5 h-5" />
-                <span>+1 (234) 567-890</span>
+                <span>+251976844155</span>
               </a>
               <a
-                href="mailto:contact@redteam.com"
+                href="mailto:masreshahabtamu169@gmail.com"
                 className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
               >
                 <Mail className="w-5 h-5" />
-                <span>contact@redteam.com</span>
+                <span>masreshahabtamu169@gmail.com</span>
               </a>
             </div>
           </div>
@@ -128,10 +128,10 @@ const Footer = () => {
         <div className="mt-12 pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-muted-foreground text-sm text-center md:text-left">
-              © {new Date().getFullYear()} RedTeam Security. All rights reserved.
+              © {new Date().getFullYear()} rexwho. All rights reserved.
             </p>
             <p className="text-muted-foreground text-sm">
-              Securing the Digital Frontier
+              Securing the Digital world
             </p>
           </div>
         </div>
